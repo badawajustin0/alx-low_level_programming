@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _puts_resursion _prints's a string followed by a new line 
+ * _puts_resursion - prints's a string followed by a new line 
  * @s: string to be printed
  *
  * Return: void
