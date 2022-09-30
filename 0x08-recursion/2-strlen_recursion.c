@@ -12,7 +12,7 @@ int sum = 0;
 if (*s != '\0')
 {
 sum++;
-sum += _strlen-recursion(s + 1);
+sum += _strlen_recursion(s + 1);
 }
 return (sum);
 }
