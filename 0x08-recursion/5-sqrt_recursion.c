@@ -15,13 +15,12 @@ return (_sqrt(0, n));
  *
  *
  *
- *
  */
 int _sqrt(int n, int x)
 {
-if (n > x / 2)
+if ( n > x / 2)
 return (-1);
 else if (n * n == x)
-return (n);
+	return (n);
 return (_sqrt(n + 1, x));
 }
